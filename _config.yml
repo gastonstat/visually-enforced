@@ -1,0 +1,7 @@
+author: Visually Enforced
+description: Gaston Sanchez's blog about data analysis, applied statistics, R
+highlighter: rouge
+permalink: pretty
+markdown: kramdown
+exclude: ["Rmd", ".DS_Store", "README.md"]
+excerpt_separator: <!--more-->
