@@ -1,5 +1,7 @@
 author: Visually Enforced
 description: Gaston Sanchez's blog about data analysis, applied statistics, R
+url: http://gastonsanchez.com/visually-enforced
+baseurl: http://gastonsanchez.com/visually-enforced
 highlighter: rouge
 permalink: pretty
 markdown: kramdown
