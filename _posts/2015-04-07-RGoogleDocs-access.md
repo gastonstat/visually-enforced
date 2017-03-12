@@ -52,14 +52,14 @@ The problem is that Google, by default (and for very good reasons), will deny R 
 
 Moreover, you will likely receive an email in your gmail account with the subject title __"Google Account: sign-in attempt blocked"__. Here's the content of the email I got:
 
-![](/images/blog/google_signin_attempt.png)
+<img src="{{ site.url }}/images/blog/google_signin_attempt.png">
 
 So what can we do about it?
 
 To solve the problem click on the link <br>
 [https://www.google.com/settings/security/lesssecureapps]( https://www.google.com/settings/security/lesssecureapps) which will take you a new window presenting you the option of turning on access to other apps (so that RGoogleDocs can have access to your account)
 
-![](/images/blog/google_less_secure_apps.png)
+<img src="{{ site.url }}/images/blog/google_less_secure_apps.png">
 
 -----
 

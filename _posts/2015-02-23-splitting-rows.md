@@ -11,7 +11,7 @@ In this post I'll describe a problem for manipulating data in R, that I think mi
 
 <!--more-->
 
-![](/images/blog/alleles.png)
+<img src="{{ site.url }}/images/blog/alleles.png">
 
 <hr/>
 
