@@ -11,7 +11,7 @@ Using R to plot colored jittery text, just for fun.
 
 <!--more-->
 
-![](/images/blog/crazy-ones.png)
+<img src="{{ site.url }}/images/blog/crazy-ones.png">
 
 <hr/>
 
@@ -44,7 +44,7 @@ plot(0, 0, type = 'n')
 text(0, 0, paste(speech, collapse = '\n'))
 {% endhighlight %}
 
-![center](/figs/code-2016-01-05-colored-jittery-text/plot_dream1-1.png)
+<img class='centered' src="{{ site.url }}/figs/code-2016-01-05-colored-jittery-text/plot_dream1-1.png">
 
 Notice that we're using basic coordinates with a center for the plot on (0,0). This helps us identify reference points both in the x-axis and the y-axis for future manipulation of the character strings.
 
@@ -68,7 +68,7 @@ for (i in 1:nchars) {
 }
 {% endhighlight %}
 
-![center](/figs/code-2016-01-05-colored-jittery-text/plot_dream2-1.png)
+<img src="{{ site.url }}/figs/code-2016-01-05-colored-jittery-text/plot_dream2-1.png">
 
 Now we can add color and modify the size of the characters. In this case we'll use the `rainbow()` palette for colors, and the `runif()` function to generate uniform values to modify the sizes of the letters:
 
@@ -84,7 +84,7 @@ for (i in 1:nchars) {
 }
 {% endhighlight %}
 
-![center](/figs/code-2016-01-05-colored-jittery-text/plot_dream3-1.png)
+<img src="{{ site.url }}/figs/code-2016-01-05-colored-jittery-text/plot_dream3-1.png">
 
 Finally, let's add some jitter to the y-position. We do this by adding some _noise_ following a normal distribution with mean zero and a small standard deviation via the `rnorm()` function:
 
@@ -99,7 +99,7 @@ for (i in 1:nchars) {
 }
 {% endhighlight %}
 
-![center](/figs/code-2016-01-05-colored-jittery-text/plot_dream4-1.png)
+<img src="{{ site.url }}/figs/code-2016-01-05-colored-jittery-text/plot_dream4-1.png">
 
 
 ### Assembling the plot
@@ -132,7 +132,7 @@ for (elem in 1:length(strs)) {
 }
 {% endhighlight %}
 
-![center](/figs/code-2016-01-05-colored-jittery-text/plot_dream5-1.png)
+<img src="{{ site.url }}/figs/code-2016-01-05-colored-jittery-text/plot_dream5-1.png">
 
 {% highlight r %}
 par(op)
@@ -173,7 +173,7 @@ for (elem in 1:length(strs)) {
 }
 {% endhighlight %}
 
-![center](/figs/code-2016-01-05-colored-jittery-text/crazy-ones-1.png)
+<img src="{{ site.url }}/figs/code-2016-01-05-colored-jittery-text/crazy-ones-1.png">
 
 {% highlight r %}
 par(op)
