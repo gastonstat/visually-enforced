@@ -11,7 +11,7 @@ image: rtist-gallery.png
 
 <!--more-->
 
-<img src="{{ site.url }}/images/blog/r-graph-gallery-logo.png">
+<a href="http://www.r-graph-gallery.com/portfolio/data-art/" target="_blank"><img src="{{ site.url }}/images/blog/r-graph-gallery-logo.png"></a>
 
 <hr/>
 
