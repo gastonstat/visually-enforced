@@ -26,7 +26,7 @@ hc = hclust(dist(mtcars))
 plot(hc)
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig11.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig11.png">
 
 {% highlight r %}
 
@@ -34,7 +34,7 @@ plot(hc)
 plot(hc, hang = -1)
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig12.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig12.png">
 
 
 
@@ -57,7 +57,7 @@ mtext(seq(0, 400, 100), side = 2, at = seq(0, 400, 100),
       line = 1, col = "#A38630", las = 2)
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig2.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig2.png">
 
 {% highlight r %}
 par(op)
@@ -79,7 +79,7 @@ plot(hcd)
 plot(hcd, type = "triangle")
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig3.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig3.png">
 
 {% highlight r %}
 par(op)
@@ -101,7 +101,7 @@ plot(cut(hcd, h = 75)$lower[[2]],
      main = "Second branch of lower tree with cut at h=75")
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig4.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig4.png">
 
 {% highlight r %}
 par(op)
@@ -138,7 +138,7 @@ clusDendro = dendrapply(hcd, colLab)
 plot(clusDendro, main = "Cool Dendrogram", type = "triangle")
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig5.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig5.png">
 
 
 
@@ -159,28 +159,30 @@ plot(as.phylo(hc), cex = 0.9, label.offset = 1)
 plot(as.phylo(hc), type="cladogram", cex = 0.9, label.offset = 1)
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig61.png) ![center](/figs/2012-10-03-Dendrograms/fig62.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig61.png"> 
+
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig62.png">
 
 {% highlight r %}
 # unrooted
 plot(as.phylo(hc), type = "unrooted")
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig63.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig63.png">
 
 {% highlight r %}
 # fan
 plot(as.phylo(hc), type = "fan")
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig64.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig64.png">
 
 {% highlight r %}
 # radial
 plot(as.phylo(hc), type = "radial")
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig65.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig65.png">
 
 
 
@@ -199,7 +201,7 @@ plot(as.phylo(hc), type = "fan", tip.color = mypal[clus5], label.offset = 1,
 cex = log(mtcars$mpg,10), col = "red")
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig7.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig7.png">
 
 {% highlight r %}
 par(op)
@@ -221,7 +223,7 @@ library(ggdendro)
 ggdendrogram(hc, theme_dendro = FALSE)
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig81.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig81.png">
 
 {% highlight r %}
 
@@ -229,7 +231,7 @@ ggdendrogram(hc, theme_dendro = FALSE)
 ggdendrogram(hc, rotate = TRUE, size = 4, theme_dendro = FALSE)
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig82.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig82.png">
 
 
 
@@ -248,7 +250,7 @@ A2Rplot(hc, k = 3, boxes = FALSE, col.up = "gray50",
         col.down = c("#FF6B6B", "#4ECDC4", "#556270"))
 {% endhighlight %}
 
-![center](/figs/2012-10-03-Dendrograms/fig9.png) 
+<img src="{{ site.url }}/figs/2012-10-03-Dendrograms/fig9.png">
 
 {% highlight r %}
 par(op)

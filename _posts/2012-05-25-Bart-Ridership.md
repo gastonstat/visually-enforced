@@ -8,7 +8,7 @@ image: bart_ggmap_openstreetmap.png
 ---
 
 <img class="centered" title="Bart_ggmap_openstreetmap" 
-src="/images/blog/bart_ggmap_openstreetmap.png" alt="Bart ggmap openstreetmap" width="580" height="520" />
+src="{{ site.url }}/images/blog/bart_ggmap_openstreetmap.png" alt="Bart ggmap openstreetmap" width="580" height="520" />
 
 Ever wonder how many people exit at BART stations on a typical weekday? You can check 
 the numbers in the <a title="bart reports" href="http://www.bart.gov/about/reports/index.aspx" 

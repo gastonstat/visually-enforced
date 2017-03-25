@@ -19,23 +19,23 @@ PCA is very useful and is one of the most applied multivariate techniques. Howev
 
 In R, there are several functions from different packages that allow us to apply Correspondence Analysis. In this post I'll show you 5 different ways to perform CA using the following functions (with their corresponding packages in parentheses):
 
-- ```ca()``` (ca)
-- ```CA()``` (FactoMineR)
-- ```dudi.coa()``` (ade4)
-- ```afc()``` (amap)
-- ```corresp()``` (MASS)
+- `ca()` (ca)
+- `CA()` (FactoMineR)
+- `dudi.coa()` (ade4)
+- `afc()` (amap)
+- `corresp()` (MASS)
 
 As in PCA, no matter what function you decide to use for CA, the typical results should consist of a set of eigenvalues, a table with the row coordinates, and a table with the column coordinates. The eigenvalues provide information of the variability in the data. The row coordinates provide information about the structure of the rows in the analyzed table. The column coordinates provide information about the structure of the columns in the analyzed table.
 
 
 ### The Data
 
-We'll use the dataset ```author``` that already comes with the R package ```"ca"```. It's a data matrix containing the counts of the 26 letters of the alphabet (columns of matrix) for 12 different novels (rows of matrix). Each row contains letter counts in a sample of text from each work, excluding proper nouns.
+We'll use the dataset `author` that already comes with the R package `"ca"`. It's a data matrix containing the counts of the 26 letters of the alphabet (columns of matrix) for 12 different novels (rows of matrix). Each row contains letter counts in a sample of text from each work, excluding proper nouns.
 
 
 ### Option 1: using ca
 
-The function ```ca()``` comes in the package of the same name [ca](http://www.carme-n.org/?sec=ca) by Michael Greenacre and Oleg Nenadic. I personally like this package because of Greenacre's work and books about CA. In addition, it has a very nice function to plot results in 3D (```plot3d.ca()```)
+The function `ca()` comes in the package of the same name [ca](http://www.carme-n.org/?sec=ca) by Michael Greenacre and Oleg Nenadic. I personally like this package because of Greenacre's work and books about CA. In addition, it has a very nice function to plot results in 3D (`plot3d.ca()`)
 
 
 {% highlight r %}
@@ -118,13 +118,13 @@ head(ca1$colcoord)
 plot(ca1)
 {% endhighlight %}
 
-![center](/figs/2012-07-19-Correspondence-Analysis/ca_ca.png) 
+<img src="{{ site.url }}/figs/2012-07-19-Correspondence-Analysis/ca_ca.png">
 
 
 
 ### Option 2: using CA
 
-One of my favorite options is the ```CA()``` function from the package[FactoMineR](http://factominer.free.fr/). What I like is that this function provides many more detailed results and assessing tools. It also comes with a number of parameters that allow you to tweak the analysis in a very nice way.
+One of my favorite options is the `CA()` function from the package[FactoMineR](http://factominer.free.fr/). What I like is that this function provides many more detailed results and assessing tools. It also comes with a number of parameters that allow you to tweak the analysis in a very nice way.
 
 
 {% highlight r %}
@@ -210,13 +210,13 @@ head(ca2$row$coord)
 plot(ca2)
 {% endhighlight %}
 
-![center](/figs/2012-07-19-Correspondence-Analysis/ca_foctominer.png) 
+<img src="{{ site.url }}/figs/2012-07-19-Correspondence-Analysis/ca_foctominer.png">
 
 
 
 ### Option 3: using dudi.coa
 
-Another option to perform CA is by using the function ```dudi.coa()```> that comes with the package [ade4](http://pbil.univ-lyon1.fr/ade4/home.php?lang=eng) (remember to install the package first).
+Another option to perform CA is by using the function `dudi.coa()`> that comes with the package [ade4](http://pbil.univ-lyon1.fr/ade4/home.php?lang=eng) (remember to install the package first).
 
 
 {% highlight r %}
@@ -288,7 +288,7 @@ head(ca3$co)
 
 ### Option 4: using afc
 
-Another option is to use the ```afc()``` function from the package [amap](http://mulcyber.toulouse.inra.fr/projects/amap/) (remember to install it first).
+Another option is to use the `afc()` function from the package [amap](http://mulcyber.toulouse.inra.fr/projects/amap/) (remember to install it first).
 
 
 {% highlight r %}
@@ -415,13 +415,13 @@ head(ca4$loadings)
 plot(ca4)
 {% endhighlight %}
 
-![center](/figs/2012-07-19-Correspondence-Analysis/ca_amap.png) 
+<img src="{{ site.url }}/figs/2012-07-19-Correspondence-Analysis/ca_amap.png">
 
 
 
 ### Option 5: using corresp
 
-A fifth possibility is the ```corresp()``` function from the package [MASS](http://www.stats.ox.ac.uk/pub/MASS4/).
+A fifth possibility is the `corresp()` function from the package [MASS](http://www.stats.ox.ac.uk/pub/MASS4/).
 
 
 {% highlight r %}
@@ -489,13 +489,13 @@ head(ca5$cscore)
 plot(ca5)
 {% endhighlight %}
 
-![center](/figs/2012-07-19-Correspondence-Analysis/ca_mass.png) 
+<img src="{{ site.url }}/figs/2012-07-19-Correspondence-Analysis/ca_mass.png">
 
 
 
 ### CA plot
 
-The typical graphic in a CA analysis is to visualize the data in a two dimensional space using the first two extracted coordinates from both rows and columns. Although we could visualize the rows and the columns separately, the usual approach is to plot both in a single graphic to get an idea of the association between them. As you can tell from the displayed code chunks, most of the CA functions have their own plot command. However, we can also use the nice tools of ```"ggplot2"```. In the following example we will also use the package ```"stringr"```
+The typical graphic in a CA analysis is to visualize the data in a two dimensional space using the first two extracted coordinates from both rows and columns. Although we could visualize the rows and the columns separately, the usual approach is to plot both in a single graphic to get an idea of the association between them. As you can tell from the displayed code chunks, most of the CA functions have their own plot command. However, we can also use the nice tools of `"ggplot2"`. In the following example we will also use the package `"stringr"`
 
 
 {% highlight r %}
@@ -542,5 +542,5 @@ ggplot(data = auth_lets, aes(x = X1, y = X2, label = name)) +
   ggtitle("CA plot of authors - letters")
 {% endhighlight %}
 
-![center](/figs/2012-07-19-Correspondence-Analysis/ca_ggplot.png) 
+<img src="{{ site.url }}/figs/2012-07-19-Correspondence-Analysis/ca_ggplot.png">
 

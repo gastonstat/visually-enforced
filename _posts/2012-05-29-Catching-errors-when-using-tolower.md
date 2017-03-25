@@ -13,18 +13,18 @@ converting text to lower case.
 
 <!--more-->
 
-More often than not, when using the ```tolower()``` 
+More often than not, when using the `tolower()`
 function I encounter myself with a really annoying error that is a truly pain in the butt.
 
 Consider the following example. Let's say we have the text from a tweet in an object 
-called ```some_text```. When we print the object in the console, we get a warning message 
+called `some_text`. When we print the object in the console, we get a warning message 
 (in red) like this:
 So, how can we solve this error? Meet the <a href="http://stat.ethz.ch/R-manual/R-devel/library/base/html/conditions.html" target="_blank">tryCatch</a> 
 function! This function will help us to catch possible errors. We'll make a new function 
-combining ```tryCatch()``` and ```tolower()``` so we can identify any undesirable text 
+combining `tryCatch()` and `tolower()` so we can identify any undesirable text 
 without returning any ugly message and without stopping our programs. 
 
-Here's my ```tryTolower()``` function
+Here's my `tryTolower()` function
 
 {% highlight r %}
 tryTolower = function(x)

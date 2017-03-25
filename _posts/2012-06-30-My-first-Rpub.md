@@ -7,7 +7,7 @@ tags: [Rpub, rstudio, markdown]
 ---
 
 <a href="http://rpubs.com/gaston/hurricanes" target="_blank">
-<img class=centered" title="hurricanes_RPub" src="/images/blog/hurricanes_rpub.png"/>
+<img class=centered" title="hurricanes_RPub" src="{{ site.url }}/images/blog/hurricanes_rpub.png"/>
 </a>
 
 I'm quite impressed with [Rstudio](http://rstudio.org/), an integrated development 

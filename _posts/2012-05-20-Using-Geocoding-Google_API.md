@@ -22,7 +22,7 @@ According to wikipedia:
 > geographic data, such as street addresses or zip codes 
 
 The idea is very simple. Let's say we have some address like 
-```1600 Amphitheatre Parkway, Mountain View, CA```, and that we ant to get its geographic 
+`1600 Amphitheatre Parkway, Mountain View, CA`, and that we ant to get its geographic 
 coordinates. By using a geocoding tool we would find that the previous address has 
 latitude 37.423021 and longitude -122.083739.
 
@@ -33,7 +33,7 @@ An interesting &mdash;but not the only&mdash; option is to use the Geocoding Goo
 <a title="google maps api" href="https://developers.google.com/maps/documentation/webservices/" target="_blank">Google Maps API Web Services</a>.
 
 <a title="google maps api" href="https://developers.google.com/maps/documentation/webservices/" target="_blank">
-<img class="centered" title="API_Geocoding" src="/images/blog/api_geocoding.png" />
+<img class="centered" title="API_Geocoding" src="{{ site.url }}/images/blog/api_geocoding.png" />
 </a>
 
 If you check the <a href="https://developers.google.com/maps/documentation/geocoding/" target="_blank">geocoding documentation</a>, 
@@ -47,7 +47,7 @@ http://maps.googleapis.com/maps/api/geocode/xml?address=1600+Amphitheatre+Parkwa
 
 ### Code in R of a Geocoding API request with XML response
 
-In order to geocode some data in R we need to use the library ```"XML"``` (by 
+In order to geocode some data in R we need to use the library `"XML"` (by 
 Duncan Temple Lang). Here's a  &mdash;simple example &mdash; of how to do that:
 
 {% highlight r %}
