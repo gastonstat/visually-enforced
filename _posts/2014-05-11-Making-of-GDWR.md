@@ -23,7 +23,7 @@ provide an introduction to the tools we have in R for getting data from the Web.
 I will walk you through my motivations, my workflow, the design issues, and some of the 
 challenges I had to face during its production. 
 
-![](/images/blog/workplace.jpg)
+<img src="{{ site.url }}/images/blog/workplace.jpg" />
 
 <hr/>
 
@@ -124,13 +124,13 @@ I'm not a fan of most common beamer themes and layouts. They tend to be very clu
 and most of the secondary elements take so much screen space. Not to mention their color palettes 
 which I kind of hate.
 
-<img class="centered" src="/images/blog/slide_design.png" width="500px"/>
+<img class="centered" src="{{ site.url }}/images/blog/slide_design.png" width="500px"/>
 
 I struggled to find a nice color palette that I was comfortable working with. 
 The solution I found was based on a scheme with 6 colors. I chose 3 color hues, and 3 
 neutral colors.
 
-<img class="centered" src="/images/blog/color_palette.png" width="400px"/>
+<img class="centered" src="{{ site.url }}/images/blog/color_palette.png" width="400px"/>
 
 - ```#51c1bc``` for section headers
 - ```#e5a919``` to highlight some code or important concepts
@@ -158,7 +158,7 @@ and a lot of online resources. Basically I worked by topics. I began reading abo
 particular topic, and working through all the mentioned steps. Once I felt I had achieved 
 a nice output, I continued with the next topic.
 
-<img class="centered" src="/images/blog/Rbooks.jpg"/>
+<img class="centered" src="{{ site.url }}/images/blog/Rbooks.jpg"/>
 
 When creating slides, most people start working directly on their computers, either 
 using Power Point, Keynote, Google Presentations, etc. But not me. I need to sit down 
@@ -167,9 +167,9 @@ without the constraints imposed by any slide-software. Once I identify the key c
 and how to *tell a story* with the material, I start creating some mockups that will help 
 me produce the actual slides in the computer.
 
-<img class="centered" src="/images/blog/slidenotes.jpg"/>
+<img class="centered" src="{{ site.url }}/images/blog/slidenotes.jpg"/>
 
-<img class="centered" src="/images/blog/sketches.jpg"/>
+<img class="centered" src="{{ site.url }}/images/blog/sketches.jpg"/>
 
 
 <hr/>

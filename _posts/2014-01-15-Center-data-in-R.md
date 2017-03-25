@@ -11,7 +11,7 @@ One of the most frequent operations in multivariate data analysis is the so-call
 
 <!--more-->
 
-<img class="centered" src="/images/blog/mean_center.png" />
+<img class="centered" src="{{ site.url }}/images/blog/mean_center.png" />
 
 ## Mean-centering
 

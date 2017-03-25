@@ -12,7 +12,7 @@ Oniris-Nantes. So I feel it's time to look back in retrospect and do a quick rev
 
 <!--more-->
 
-<img class="centered" src="/images/blog/elephant.jpg" />
+<img class="centered" src="{{ site.url }}/images/blog/elephant.jpg" />
 
 *What's this photo?* Glad you asked. It's the famous **great elephant** from 
 [Les Machines de l'ile]("http://www.lesmachines-nantes.fr/‎") de Nantes. A colosal machine of

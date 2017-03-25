@@ -13,7 +13,7 @@ convert a dendrogram into a graph.
 
 <!--more-->
 
-![](/images/blog/dendro2graph.png)
+<img src="{{ site.url }}/images/blog/dendro2graph.png" />
 
 <hr/>
 
@@ -49,7 +49,7 @@ clus_usarrests = hclust(dist_usarrests, method = "ward.D")
 plot(clus_usarrests, hang = -1)
 {% endhighlight %}
 
-![](/images/blog/usarrests_dendrogram.png)
+<img src="{{ site.url }}/images/blog/usarrests_dendrogram.png" />
 
 
 Although ```"hclust"``` provides information about the merged nodes, it doesn't provide 
@@ -123,8 +123,8 @@ text(graph_layout[1:nobs,1], graph_layout[1:nobs,2],
 {% endhighlight %}
 
 
-![](/images/blog/dendro_tree_graph.png)
+<img src="{{ site.url }}/images/blog/dendro_tree_graph.png">
 
 
 If you're interested in getting a pretty tree graph check the 
-[next post](/blog/resources/2014/07/05/Pretty-tree-graph.html).
+[next post](/visually-enforced//resources/2014/07/05/Pretty-tree-graph.html).
