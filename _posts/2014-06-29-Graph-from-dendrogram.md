@@ -35,8 +35,8 @@ branches of the dendrogram can be regarded as the graph edges.
 
 ### Hierarchical Clustering Dendrogram
 
-Let's start by generating a hierarchical clustering with ```hclust()```. We'll 
-use the data ```USArrests``` for demo purposes:
+Let's start by generating a hierarchical clustering with `hclust()`. We'll 
+use the data `USArrests` for demo purposes:
 
 {% highlight r %}
 # distance matrix 
@@ -52,10 +52,10 @@ plot(clus_usarrests, hang = -1)
 <img src="{{ site.url }}/images/blog/usarrests_dendrogram.png" />
 
 
-Although ```"hclust"``` provides information about the merged nodes, it doesn't provide 
+Although `"hclust"` provides information about the merged nodes, it doesn't provide 
 all the necessary elements to build a graph. To do this, we need to use 
-the function ```as.phylo()``` from the R package ```"ape"```. The good news 
-about a ```"phylo"``` object is that it contains all the tree edges needed 
+the function `as.phylo()` from the R package `"ape"`. The good news 
+about a `"phylo"` object is that it contains all the tree edges needed 
 to build a graph.
 
 {% highlight r %}
@@ -74,8 +74,8 @@ graph_edges = phylo_tree$edge
 
 ### Graph
 
-Once we have the edges we can build a graph using the function ```graph.edgelist()``` 
-from the package ```"igraph"```.
+Once we have the edges we can build a graph using the function `graph.edgelist()` 
+from the package `"igraph"`.
 
 {% highlight r %}
 # library igraph
@@ -88,14 +88,14 @@ graph_net = graph.edgelist(graph_edges)
 plot(graph_net)
 {% endhighlight %}
 
-![](/images/blog/dendro_graph.png)
+<img src="{{ site.url }}/images/blog/dendro_graph.png" />
 
 The previous plot is kind of messy but the graph has exactly what we want: it has all the 
 leafs, nodes and edges from the dendrogram.
 
 
 Finally, we can play with the different graph layouts to get a set of x-y 
-coordinates. For instance, we can use the ```layout.auto()``` function to get 
+coordinates. For instance, we can use the `layout.auto()` function to get 
 nodes nicely spread. Having the layout coordinates we can plot a graph with 
 a tree structure using some R plotting tools:
 
