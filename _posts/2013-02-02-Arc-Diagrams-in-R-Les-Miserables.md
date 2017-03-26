@@ -9,7 +9,7 @@ tags: [arc diagram, arcplot, igraph, les miserables, network]
 In this post we will talk about the R package ```"arcdiagram"``` for plotting pretty arc 
 diagrams like the one below:
 
-<img class="centered" src="/images/blog/pretty_arcdiagram.png" />
+<img class="centered" src="{{ site.url }}/images/blog/pretty_arcdiagram.png" />
 
 <!--more-->
 
@@ -180,6 +180,6 @@ arcplot(edgelist, ordering = new_ord, labels = vlabels, cex.labels = 0.8,
         col.arcs = hsv(0, 0, 0.2, 0.25), lwd.arcs = 1.5 * values)
 {% endhighlight %}
 
-<img class="centered" src="/images/blog/miserables_arcplot.png" />
+<img class="centered" src="{{ site.url }}/images/blog/miserables_arcplot.png" />
 
 Happy plotting!

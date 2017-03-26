@@ -10,7 +10,7 @@ In this post we'll talk about **corrgrams**: a graphical tool for visualizing a 
 of correlations.
 
 <a title="Rpub corrgrams" href="http://rpubs.com/gaston/corrgrams" target="_blank">
-<img class="centered" src="/images/blog/corrgrams.png" />
+<img class="centered" src="{{ site.url }}/images/blog/corrgrams.png" />
 </a>
 
 
@@ -52,7 +52,7 @@ corrgram(R, order=TRUE, lower.panel = panel.shade, upper.panel = panel.pie,
 {% endhighlight %}
 
 
-<img class="centered" src="/images/blog/corrgram2.png" /></a>
+<img class="centered" src="{{ site.url }}/images/blog/corrgram2.png" /></a>
 
 Here's the link to the <a title="Rpub corrgrams" href="http://rpubs.com/gaston/corrgrams" target="_blank">Rpub</a> 
 with the complete code in R.

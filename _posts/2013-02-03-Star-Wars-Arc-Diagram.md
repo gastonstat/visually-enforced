@@ -19,7 +19,7 @@ arc diagram by Philipp Steinweber and Andreas Koller (it must have been somewher
 end of 2009 or at the beginning of 2010).
 
 <a href="http://similardiversity.net/" target="_blank">
-<img class="centered" title="Similar Diversity" src="/images/blog/dataflow_page.jpg" />
+<img class="centered" title="Similar Diversity" src="{{ site.url }}/images/blog/dataflow_page.jpg" />
 </a> 
 
 Anyway, the important thing is that I was immediately amazed by all the different 
