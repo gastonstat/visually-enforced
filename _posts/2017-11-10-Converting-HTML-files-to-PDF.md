@@ -10,9 +10,9 @@ image: wkhtmltopdf.png
 Using [wkhtmltopdf](https://wkhtmltopdf.org/) to convert HTML files
 into PDF format.
 
-<img src="{{ site.baseurl }}/images/blog/wkhtmltopdf.png">
-
 <!--more-->
+
+<img src="{{ site.baseurl }}/images/blog/wkhtmltopdf.png">
 
 ## Motivation
 
