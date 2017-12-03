@@ -13,7 +13,7 @@ to improve your *data wizardry* skills.
 
 <!--more-->
 
-<img src="{{ site.url }}/images/blog/datawizardry1.png" />
+<img src="{{ site.baseurl }}/images/blog/datawizardry1.png" />
 
 <hr/>
 
@@ -39,7 +39,7 @@ almost over and students are getting ready to go back to school. For those *pada
 pursuing a career with a heavy analytics component, I'm convinced that these slides 
 will help them build some of the required skills to crunch data in R.
 
-<img src="{{ site.url }}/images/blog/datawizardry3.png" />
+<img src="{{ site.baseurl }}/images/blog/datawizardry3.png" />
 
 
 <hr/>

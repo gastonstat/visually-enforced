@@ -17,6 +17,6 @@ __The Saga of PLS__, an online text exclusively dedicated to the history of Part
 You can read it at:
 [sagaofpls.github.io](http://sagaofpls.github.io)
 
-<a class="centered" href="http://sagaofpls.github.io"><img src="{{ site.url }}/images/blog/sagaofpls.png"></a>
+<a class="centered" href="http://sagaofpls.github.io"><img src="{{ site.baseurl }}/images/blog/sagaofpls.png"></a>
 
 Enjoy and happy reading!

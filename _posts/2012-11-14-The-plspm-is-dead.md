@@ -6,7 +6,7 @@ categories: resources
 tags: [pls, plspm, plsdepot, plstroika, partial least squares]
 ---
 
-<img class="centered" src="{{ site.url }}/images/blog/pls_modeling.jpg" />
+<img class="centered" src="{{ site.baseurl }}/images/blog/pls_modeling.jpg" />
 
 After one month and a half or so of intense work, due diligence, and heavy duty 
 maintenance, I finally completed the first phase of my *PLStroika* project. 

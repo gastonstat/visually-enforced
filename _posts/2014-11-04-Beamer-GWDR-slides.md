@@ -11,7 +11,7 @@ In this post I'm sharing one of the style files from my small collection of beam
 
 <!--more-->
 
-<img src="{{ site.url }}/images/blog/slides2gwdr.png" />
+<img src="{{ site.baseurl }}/images/blog/slides2gwdr.png" />
 
 <hr/>
 
@@ -21,7 +21,7 @@ In this post I'm sharing one of the style files from my small collection of beam
 In a couple of previous posts I've talked about my repulsion to the the typical [beamer themes](https://www.hartwork.org/beamer-theme-matrix/) that so many people in academia 
 use to create slides and presentations (see figure below).
  
-<img src="{{ site.url }}/images/blog/beamer_themes.png" />
+<img src="{{ site.baseurl }}/images/blog/beamer_themes.png" />
 
 There are several reasons why I don't like such themes: they tend to be very cluttered with
 most of the secondary elements taking so much screen space; and their color palettes are 
@@ -44,9 +44,9 @@ Keep in mind that I use [RStudio](http://www.rstudio.com/) with ```"knitr"``` to
 Hopefully next time (i.e. next year) I decide to write about my beamer style-guide, 
 I will provide detailed descriptions for the different elements in my slides.
 
-<img src="{{ site.url }}/images/blog/slides2gwdr_p1.png" />
+<img src="{{ site.baseurl }}/images/blog/slides2gwdr_p1.png" />
 
-<img src="{{ site.url }}/images/blog/slides2gwdr_p2.png" />
+<img src="{{ site.baseurl }}/images/blog/slides2gwdr_p2.png" />
 
-<img src="{{ site.url }}/images/blog/slides2gwdr_p3.png" />
+<img src="{{ site.baseurl }}/images/blog/slides2gwdr_p3.png" />
 

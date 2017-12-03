@@ -11,7 +11,7 @@ I'm always surprised to find "new" (to me) functions and commands in R that I ha
 
 <!--more-->
 
-<img src="{{ site.url }}/images/blog/capture_output.png" />
+<img src="{{ site.baseurl }}/images/blog/capture_output.png" />
 
 
 ### Motivation

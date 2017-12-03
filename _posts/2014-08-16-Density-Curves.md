@@ -11,7 +11,7 @@ The default graphical display of most plotting functions in R is very limited (a
 
 <!--more-->
 
-<img src="{{ site.url }}/images/blog/density-plot-post.png">
+<img src="{{ site.baseurl }}/images/blog/density-plot-post.png">
 
 
 ### A Basic Plot Example
@@ -48,13 +48,13 @@ plot(den3)
 
 
 
-<img src="{{ site.url }}/figs/2014-08-16-Density-Curves/plot-density1.png" />
+<img src="{{ site.baseurl }}/figs/2014-08-16-Density-Curves/plot-density1.png" />
 
 
-<img src="{{ site.url }}/figs/2014-08-16-Density-Curves/plot-density2.png" />
+<img src="{{ site.baseurl }}/figs/2014-08-16-Density-Curves/plot-density2.png" />
 
 
-<img src="{{ site.url }}/figs/2014-08-16-Density-Curves/plot-density3.png" />
+<img src="{{ site.baseurl }}/figs/2014-08-16-Density-Curves/plot-density3.png" />
 
 
 
@@ -101,7 +101,7 @@ par(op)
 
 
 
-<img src="{{ site.url }}/figs/2014-08-16-Density-Curves/density-plot.png" />
+<img src="{{ site.baseurl }}/figs/2014-08-16-Density-Curves/density-plot.png" />
 
 
 
@@ -124,7 +124,7 @@ ggplot(data = distribs, aes(x = values, group = type)) +
   geom_density(aes(fill = type, color = type), alpha = 0.5)
 {% endhighlight %}
 
-<img src="{{ site.url }}/figs/2014-08-16-Density-Curves/density-ggplot.png" />
+<img src="{{ site.baseurl }}/figs/2014-08-16-Density-Curves/density-ggplot.png" />
 
 
 

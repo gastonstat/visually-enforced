@@ -14,7 +14,7 @@ this one \\( x^2 + y^2 = r^2 \\).
 
 <!--more-->
 
-<img class="centered" src="{{ site.url }}/images/blog/mathjax_logo.png" />
+<img class="centered" src="{{ site.baseurl }}/images/blog/mathjax_logo.png" />
 
 ### What's MathJax?
 

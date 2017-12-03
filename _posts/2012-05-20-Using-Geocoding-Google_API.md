@@ -33,7 +33,7 @@ An interesting &mdash;but not the only&mdash; option is to use the Geocoding Goo
 <a title="google maps api" href="https://developers.google.com/maps/documentation/webservices/" target="_blank">Google Maps API Web Services</a>.
 
 <a title="google maps api" href="https://developers.google.com/maps/documentation/webservices/" target="_blank">
-<img class="centered" title="API_Geocoding" src="{{ site.url }}/images/blog/api_geocoding.png" />
+<img class="centered" title="API_Geocoding" src="{{ site.baseurl }}/images/blog/api_geocoding.png" />
 </a>
 
 If you check the <a href="https://developers.google.com/maps/documentation/geocoding/" target="_blank">geocoding documentation</a>, 

@@ -12,7 +12,7 @@ to visualize dendrograms and clusters in an alternative way.
 
 <!--more-->
 
-<img src="{{ site.url }}/images/blog/pretty_tree.png" />
+<img src="{{ site.baseurl }}/images/blog/pretty_tree.png" />
 
 <hr/>
 
@@ -50,7 +50,7 @@ clus_usarrests = hclust(dist_usarrests, method = "ward.D")
 plot(clus_usarrests, hang = -1)
 {% endhighlight %}
 
-<img src="{{ site.url }}/images/blog/usarrests_dendrogram.png" />
+<img src="{{ site.baseurl }}/images/blog/usarrests_dendrogram.png" />
 
 <hr/>
 
@@ -129,4 +129,4 @@ pretty_tree(USArrests, num_clusters = 4)
 
 {% endhighlight %}
 
-<img src="{{ site.url }}/images/blog/pretty_tree.png" />
+<img src="{{ site.baseurl }}/images/blog/pretty_tree.png" />

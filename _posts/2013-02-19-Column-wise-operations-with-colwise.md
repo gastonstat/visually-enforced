@@ -7,7 +7,7 @@ tags: [column, colwise, operations, ddply, groups]
 image: colwise_groups.png
 ---
 
-<img src="{{ site.url }}/images/blog/colwise_groups.png" title="colwise_groups" />
+<img src="{{ site.baseurl }}/images/blog/colwise_groups.png" title="colwise_groups" />
 
 In a [previous post]({% post_url 2012-06-08-Using-tapply-ddply-and-sqldf-for-the-same-task %}) 
 I described different options in R to do some calculations using ```tapply()```, 
@@ -89,4 +89,4 @@ ggplot(group_means_melt, aes(x = aux, y = value, fill = variable)) +
         axis.ticks.x = element_blank())
 {% endhighlight %}
 
-<img src="{{ site.url }}/images/blog/barplot_colwise.png" />
+<img src="{{ site.baseurl }}/images/blog/barplot_colwise.png" />

@@ -12,7 +12,7 @@ I want to talk about the behind the scenes of **Manipulating Data Tables in R**.
 
 <!--more-->
 
-<img src="{{ site.url }}/images/blog/slide_deck.png">
+<img src="{{ site.baseurl }}/images/blog/slide_deck.png">
 
 <hr/>
 
@@ -92,7 +92,7 @@ I also choose two neutral colors. Now I tend to be more careful and keep in mind
 that there may be color-blind people in the audience. The image below shows some 
 of the colors I initially considered for **Getting Data from the Web with R**.
 
-<img src="{{ site.url }}/images/blog/slide_palette.png">
+<img src="{{ site.baseurl }}/images/blog/slide_palette.png">
 
 In order to complete a color palette I consider two color hues for the following 
 purposes: highlighting and lowlighting. I use a color to highlight things like 
@@ -115,7 +115,7 @@ principles of visual perception. Steven Bradley has written a short tutorial on
 what things capture our attention, and what can we do to direct our eyes, will help you 
 a lot to design better schemes, diagrams, and graphics. 
 
-<img src="{{ site.url }}/images/blog/neat_highlight.png">
+<img src="{{ site.baseurl }}/images/blog/neat_highlight.png">
 
 
 
@@ -140,7 +140,7 @@ design. If you really want to know how I've developed my "secret sauce recipe",
 just search for any of the books in the photo below (part of my personal library about 
 information design in general). 
 
-<img src="{{ site.url }}/images/blog/design_books.jpg">
+<img src="{{ site.baseurl }}/images/blog/design_books.jpg">
 
 
 - **slide:ology: The Art and Science of Creating Great Presentations** (by Nancy Duarte)

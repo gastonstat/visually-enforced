@@ -18,7 +18,7 @@ dish was in charge of Karthik who spoke about R's role in facilitating
 about [R and Open Science](http://inundata.org/R_talks/BARUG/#intro).
 
 <a href="http://inundata.org/R_talks/BARUG/#intro">
-<img class="centered" src="{{ site.url }}/images/blog/ropen_science.png">
+<img class="centered" src="{{ site.baseurl }}/images/blog/ropen_science.png">
 </a> 
 
 From all the very interesting stuff mentioned by Karthik, the two main key ideas that 

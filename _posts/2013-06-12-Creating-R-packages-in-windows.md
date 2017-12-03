@@ -7,7 +7,7 @@ tags: [build, create, develop, packages, R, windows, workshop]
 image: be_creator.png
 ---
 
-<img class="centered" src="{{ site.url }}/images/blog/be_creator.png" />
+<img class="centered" src="{{ site.baseurl }}/images/blog/be_creator.png" />
 
 This post is dedicated for those **useRs** interested in becoming *creatoRs*, especially 
 those working under windows. Here are the slides of my workshop 
@@ -72,4 +72,4 @@ point. But hopefully these slides can help you avoid some useless R packaging su
 The goal is to help you make the transition from being just a *useR*, to start 
 being a *creatoR*.
 
-<img class="centered" src="{{ site.url }}/images/blog/rpackaging.png" />
+<img class="centered" src="{{ site.baseurl }}/images/blog/rpackaging.png" />

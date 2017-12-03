@@ -118,7 +118,7 @@ head(ca1$colcoord)
 plot(ca1)
 {% endhighlight %}
 
-<img src="{{ site.url }}/figs/2012-07-19-Correspondence-Analysis/ca_ca.png">
+<img src="{{ site.baseurl }}/figs/2012-07-19-Correspondence-Analysis/ca_ca.png">
 
 
 
@@ -210,7 +210,7 @@ head(ca2$row$coord)
 plot(ca2)
 {% endhighlight %}
 
-<img src="{{ site.url }}/figs/2012-07-19-Correspondence-Analysis/ca_foctominer.png">
+<img src="{{ site.baseurl }}/figs/2012-07-19-Correspondence-Analysis/ca_foctominer.png">
 
 
 
@@ -415,7 +415,7 @@ head(ca4$loadings)
 plot(ca4)
 {% endhighlight %}
 
-<img src="{{ site.url }}/figs/2012-07-19-Correspondence-Analysis/ca_amap.png">
+<img src="{{ site.baseurl }}/figs/2012-07-19-Correspondence-Analysis/ca_amap.png">
 
 
 
@@ -489,7 +489,7 @@ head(ca5$cscore)
 plot(ca5)
 {% endhighlight %}
 
-<img src="{{ site.url }}/figs/2012-07-19-Correspondence-Analysis/ca_mass.png">
+<img src="{{ site.baseurl }}/figs/2012-07-19-Correspondence-Analysis/ca_mass.png">
 
 
 
@@ -542,5 +542,5 @@ ggplot(data = auth_lets, aes(x = X1, y = X2, label = name)) +
   ggtitle("CA plot of authors - letters")
 {% endhighlight %}
 
-<img src="{{ site.url }}/figs/2012-07-19-Correspondence-Analysis/ca_ggplot.png">
+<img src="{{ site.baseurl }}/figs/2012-07-19-Correspondence-Analysis/ca_ggplot.png">
 

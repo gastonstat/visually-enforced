@@ -13,7 +13,7 @@ convert a dendrogram into a graph.
 
 <!--more-->
 
-<img src="{{ site.url }}/images/blog/dendro2graph.png" />
+<img src="{{ site.baseurl }}/images/blog/dendro2graph.png" />
 
 <hr/>
 
@@ -49,7 +49,7 @@ clus_usarrests = hclust(dist_usarrests, method = "ward.D")
 plot(clus_usarrests, hang = -1)
 {% endhighlight %}
 
-<img src="{{ site.url }}/images/blog/usarrests_dendrogram.png" />
+<img src="{{ site.baseurl }}/images/blog/usarrests_dendrogram.png" />
 
 
 Although `"hclust"` provides information about the merged nodes, it doesn't provide 
@@ -88,7 +88,7 @@ graph_net = graph.edgelist(graph_edges)
 plot(graph_net)
 {% endhighlight %}
 
-<img src="{{ site.url }}/images/blog/dendro_graph.png" />
+<img src="{{ site.baseurl }}/images/blog/dendro_graph.png" />
 
 The previous plot is kind of messy but the graph has exactly what we want: it has all the 
 leafs, nodes and edges from the dendrogram.
@@ -123,7 +123,7 @@ text(graph_layout[1:nobs,1], graph_layout[1:nobs,2],
 {% endhighlight %}
 
 
-<img src="{{ site.url }}/images/blog/dendro_tree_graph.png">
+<img src="{{ site.baseurl }}/images/blog/dendro_tree_graph.png">
 
 
 If you're interested in getting a pretty tree graph check the 

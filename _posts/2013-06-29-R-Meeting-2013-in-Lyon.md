@@ -77,7 +77,7 @@ your mac and your iphone but then you have the freedom to move around the stage.
 
 ### R and the Cloud (by Karim Chine)
 
-<img class="centered" src="{{ site.url }}/images/blog/elasticr.png" />
+<img class="centered" src="{{ site.baseurl }}/images/blog/elasticr.png" />
 
 Another very interesting talk was given by Karim Chine about 
 <a href="http://www.elastic-r.net/" target="_blank">Elastic-R</a>. My main complain is 
@@ -88,7 +88,7 @@ or at least a couple of workshop sessions.
 
 ### R as a sound system (by Jérôme Sueur)
 
-<img class="centered" src="{{ site.url }}/images/blog/seewave.png" />
+<img class="centered" src="{{ site.baseurl }}/images/blog/seewave.png" />
 
 Although I didn't take a picture of 
 <a href="http://sueur.jerome.perso.neuf.fr/" target="_blank">Jérôme Sueur</a> 

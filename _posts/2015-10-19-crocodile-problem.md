@@ -11,7 +11,7 @@ Using R to solve the [crocodile math problem]() from the Scottish __Higher Maths
 
 <!--more-->
 
-<img src="{{ site.url }}/images/blog/crocodile-zebra.png">
+<img src="{{ site.baseurl }}/images/blog/crocodile-zebra.png">
 
 <hr/>
 
@@ -21,7 +21,7 @@ Reading the Spanish newspaper [La Vanguardia](http://www.lavanguardia.com/vida/2
 
 Here's the problem. 
 
-<img src="{{ site.url }}/images/blog/crocodile-problem.png">
+<img src="{{ site.baseurl }}/images/blog/crocodile-problem.png">
 
 
 ### Getting Started
@@ -41,7 +41,7 @@ curve(croctime, 0, 20, las = 1, lwd = 5, col = "#68A959",
       xlab = "distance", ylab = "time")
 {% endhighlight %}
 
-<img src="{{ site.url }}/figs/2015-10-19-crocodile-problem/croctime-1.png">
+<img src="{{ site.baseurl }}/figs/2015-10-19-crocodile-problem/croctime-1.png">
 
 
 ### First question 
