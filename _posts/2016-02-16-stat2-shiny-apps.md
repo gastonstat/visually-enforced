@@ -40,5 +40,5 @@ Inspired by Philip's work, I decided to write a series of shiny apps and make th
 
 Here's a screenshot of one of the apps illustrating scatterplots and types of correlations.
 
-<img src="images/blog/shiny-stat2.png">
+<img src="/images/blog/shiny-stat2.png">
 
