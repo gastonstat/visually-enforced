@@ -20,7 +20,7 @@ layout: page
 	<span class="categories">
 		Published in categories
 		{% for cat in page.categories %}
-		<a href="{{ site.url }}/blog/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+		<a href="{{ site.baseurl }}/blog/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
 		{% endfor %}
 	</span>
 	{% endif %}
@@ -29,7 +29,7 @@ layout: page
 	<span class="tags">
 		Tagged with 
 		{% for tag in page.tags %}
-		<a href="{{ site.url }}/blog/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
+		<a href="{{ site.baseurl }}/blog/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
 		{% endfor %}
 	</span>
 	{% endif %}
@@ -38,14 +38,14 @@ layout: page
 
 <div class="previous_next">
 	{% if page.previous %}
-	  <a href="{{ site.url }}/{{ page.previous.url }}" title="Previous post">&larr; previous</a>
+	  <a href="{{ site.baseurl }}{{ page.previous.url }}" title="Previous post">&larr; previous</a>
 	{% endif %}
 	&nbsp;&nbsp;
 	{% if page.next %}
-	  <a href="{{ site.url }}/{{ page.next.url }}" title="Next post">next &rarr;</a>
+	  <a href="{{ site.baseurl }}{{ page.next.url }}" title="Next post">next &rarr;</a>
 	{% endif %}
 	<br>
 	<p>
-	<a class="greenbutton" href="{{ site.url }}/blog/archive/" title="an archive of all posts">See all posts &rarr;</a>
+	<a class="greenbutton" href="{{ site.baseurl }}/blog/archive/" title="an archive of all posts">See all posts &rarr;</a>
 	</p>
 </div>
