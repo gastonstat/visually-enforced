@@ -177,13 +177,13 @@ for (day in seq_along(dates)) {
   # matching IDs
   matched_id <- roster$SID %in% dat$SID
   
-  # if at least one match (e.g. name or id) then presence
+  # if no matches (neither name or id) then absence
   unmatched <- ((matched_name + matched_id) == 0)
   attendance[unmatched,day] <- 0
 }
 
 # adding column names and additional vectors
-rownmaes(attendance) <- roster_name
+rownames(attendance) <- roster_name
 colnames(attendance) <- dates
 att_sum <- rowSums(attendance)
 score <- rep(0, nrow(roster))
